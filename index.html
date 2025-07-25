@@ -10,17 +10,21 @@
 <body class="px-4 sm:px-10 lg:px-[150px]">
   <header class="mt-8 mb-12">
     <!-- navbar -->
-    <nav class="flex flex-col sm:flex-row justify-between items-center gap-4">
-      <img src="assets/logo.png" alt="" class="h-12" />
-      <ul class="flex flex-wrap items-center gap-6 sm:gap-12 text-center">
-        <div class="md:flex gap-4 ">
-          <li class="font-bold"><a href="">Home</a></li>
-        <li class="text-gray-500"><a href="">Shop</a></li>
-        <li class="text-gray-500"><a href="">About Us</a></li>
-        </div>
-        <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a></li>
-      </ul>
-    </nav>
+    <nav class="flex  sm:flex-row justify-between items-center gap-4">
+  <!-- Logo -->
+  <img src="assets/logo.png" alt="" class="h-12" />
+
+  <!-- Navigation Links -->
+  <ul class="flex items-center gap-6 sm:gap-12 text-center">
+    <li class="font-bold hidden sm:block"><a href="">Home</a></li>
+    <li class="text-gray-500 hidden sm:block"><a href="">Shop</a></li>
+    <li class="text-gray-500 hidden sm:block"><a href="">About Us</a></li>
+    
+    <!-- Cart (always visible) -->
+    <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a></li>
+  </ul>
+</nav>
+
 
     <!-- banner section -->
     <div class="flex flex-col-reverse lg:flex-row mt-10 items-center justify-between gap-10">
